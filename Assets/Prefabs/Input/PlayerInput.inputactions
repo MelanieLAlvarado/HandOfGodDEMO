@@ -1,0 +1,102 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "RightXRController",
+            "id": "2414d6ca-a855-4735-bbcf-ed47ceb964d3",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "d30a4db3-ca6a-47f5-b528-d77f74a6392f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "704f178c-7297-4da0-a45c-98e9eafc8aec",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07f35032-d810-43cb-9531-659da647d752",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f3af8ee-93b0-4d63-9ee4-ad90aa10fddc",
+                    "path": "<XRController>{RightHand}/pointerRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftXRController",
+            "id": "9a59c86a-d34f-4a99-bef9-258b03b46705",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "32eeeb3a-62e3-4d10-8b10-e879a1cb9ee0",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "a6c8ce24-0436-4d6f-8051-a9b71b7aecfb",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "055a1b23-3a5d-4506-9800-89cb84ec8460",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1b26aca-ea4b-4f59-98ee-65f553d80315",
+                    "path": "<XRController>{LeftHand}/{DeviceRotation}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
